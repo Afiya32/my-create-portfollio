@@ -1,0 +1,94 @@
+*{
+  margin: 10px;
+  padding: 10px;
+}
+body{
+  width: 1200px;
+}
+header{
+height: 400px;
+background-image: url('../images/banner/banner3.png');
+color: #FFF;
+  text-align: right;
+  font-family: Work Sans;
+}
+.tittle-1{
+  position: bottom right;
+}
+.part-1{
+  display: flex;
+  height: 600px;
+  text-align: center;
+  justify-items: center;
+
+}
+.part-1 .list-part{
+  text-align: center;
+  margin: 10px;
+  align-items: center;
+}
+part-1 img{
+  width: 60%;
+}
+.part-1 ul{
+  list-style: none;
+}
+.part-1 h3{
+  margin: 30px;
+}
+.part-2{
+  text-align: center;
+  justify-items: center;
+  border: 5px;
+  margin: 10px;
+  font-size: 30px;
+}
+.part-3{
+  display: inline-flex;
+}
+.part-3 .item3{
+  display: flex;
+  justify-items:center ;
+  align-content: space-between;
+  width: 100%;
+}
+.item3 i-part{
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+}
+.part-4{
+  height: 300px;
+  width: 100%;
+  background-image: url('../images/watch.png');
+}
+.part-4 .item4{
+  text-align: center ;
+  justify-content:space-around ;
+}
+.f-part-1{
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  color: white;
+  background: black;
+  height:500px ;
+}
+.f-1 h6{
+  text-decoration: none;
+}
+.part-social{
+  justify-content: space-around;
+  display: inline;
+}
+.f-2{
+  display: block;
+}
+.f-2 #subscribe{
+  height: 15px;
+  width: 8px;
+  background: blue;
+  color:white;
+  border-radius: 10px;
+}
+
